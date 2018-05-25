@@ -1,0 +1,102 @@
+{"goals":[
+		{"NodeID" : "G.1",
+		"NodeName" : "Maintain optimal Distance2Leader",
+		"ParentNode" : "G",
+		"NodeDomain" : "car2",
+		"NodeType" : "hardgoal",
+		"RELATION" : {
+			"RelType" : "AND",
+			"SubNodes" : ["G.1.1","G.1.2","G.1.3"],
+			"Weight" : [1.0,1.0,1.0],
+			"Contribution" : []		},
+		"Condition" : {
+			"PreCond" : [],
+			"PostCond" : []
+		},
+		"Evaluation" : 0.0 },
+
+		{"NodeID" : "G.1.1",
+		"NodeName" : "Distance2Leader < 0.8 (C)",
+		"ParentNode" : "G.1",
+		"NodeDomain" : "car2",
+		"NodeType" : "resource",
+		"RELATION" : {
+			"RelType" : "AND",
+			"SubNodes" : [],
+			"Weight" : [],
+			"Contribution" : []		},
+		"Condition" : {
+			"PreCond" : [],
+			"PostCond" : []
+		},
+		"Evaluation" : 0.0 },
+		
+		{"NodeID" : "G.1.2",
+		"NodeName" : "M_getDistance2Leader (G)",
+		"ParentNode" : "G.1",
+		"NodeDomain" : "car2",
+		"NodeType" : "task",
+		"RELATION" : {
+			"RelType" : "AND",
+			"SubNodes" : [],
+			"Weight" : [],
+			"Contribution" : []		},
+		"Condition" : {
+			"PreCond" : [],
+			"PostCond" : []
+		},
+		"Evaluation" : 0.0 },
+
+		{"NodeID" : "G.1.3",
+		"NodeName" : "avoid collision",
+		"ParentNode" : "G.1",
+		"NodeDomain" : "car2",
+		"NodeType" : "hardgoal",
+		"RELATION" : {
+			"RelType" : "OR",
+			"SubNodes" : ["G.1.3.1","G.1.3.2"],
+			"Weight" : [1.0,1.0],
+			"Contribution" : []		},
+		"Condition" : {
+			"PreCond" : [],
+			"PostCond" : []
+		},
+		"Evaluation" : 0.0 },
+
+		{"NodeID" : "G.1.3.1",
+		"NodeName" : "E_stopVehicle (A)",
+		"ParentNode" : "G.1.3",
+		"NodeDomain" : "car2",
+		"NodeType" : "task",
+		"RELATION" : {
+			"RelType" : "AND",
+			"SubNodes" : [],
+			"Weight" : [],
+			"Contribution" : []		},
+		"Condition" : {
+			"PreCond" : [],
+			"PostCond" : []
+		},
+		"Evaluation" : 0.0 },
+
+		{"NodeID" : "G.1.3.2",
+		"NodeName" : "E_goVehicle (A)",
+		"ParentNode" : "G.1.3",
+		"NodeDomain" : "car2",
+		"NodeType" : "task",
+		"RELATION" : {
+			"RelType" : "AND",
+			"SubNodes" : [],
+			"Weight" : [],
+			"Contribution" : []		},
+		"Condition" : {
+			"PreCond" : [],
+			"PostCond" : []
+		},
+		"Evaluation" : 0.0 }
+
+		
+
+
+]
+}

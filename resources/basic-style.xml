@@ -1,0 +1,55 @@
+<mxStylesheet>
+	<add as="defaultVertex">
+		<add as="shape" value="label"/>
+		<add as="perimeter" value="rectanglePerimeter"/>
+		<add as="fontSize" value="12"/>
+		<add as="align" value="center"/>
+		<add as="verticalAlign" value="middle"/>
+		<add as="strokeColor" value="black"/>
+		<add as="fillColor" value="white"/>
+		<add as="fontFamily" value="Times New Roman"/>
+	</add>
+	<add as="defaultEdge" extend="defaultEdge">
+		<add as="labelBackgroundColor" value="white"/>
+		<add as="rounded" value="1"/>
+		<add as="edgeStyle" value="Orthogonal"/>
+		<add as="strokeColor" value="black"/>
+		<add as="fontSize" value="10"/>
+		<add as="fontColor" value="#1d258f"/>
+		<add as="fontFamily" value="TimesNewRoman"/>
+	</add>
+	<add as="entity">
+		<add as="edgeStyle" value="entityRelationEdgeStyle"/>
+	</add>
+	<add as="vertical">
+		<add as="elbow" value="vertical"/>
+	</add>
+	<add as="straight">
+		<add as="shape" value="connector"/>
+		<add as="endArrow" value="classic"/>
+		<add as="edgeStyle" value="none"/>
+	</add>
+	<add as="arrow">
+		<add as="shape" value="arrow"/>
+	</add>
+	<add as="swimlane">
+		<add as="shape" value="swimlane"/>
+		<add as="fontSize" value="12"/>
+		<add as="fontStyle" value="1"/>
+		<add as="startSize" value="23"/>
+	</add>
+	<add as="group">
+		<add as="verticalAlign" value="top"/>
+		<add as="dashed" value="1"/>
+		<add as="opacity" value="50"/>
+	</add>	
+	<add as="ellipse">
+		<add as="shape" value="ellipse"/>
+		<add as="fillColor" value="lightgray"/>
+		<add as="perimeter" value="ellipsePerimeter"/>
+	</add>
+	<add as="rhombus">
+		<add as="shape" value="rhombus"/>
+		<add as="perimeter" value="rhombusPerimeter"/>
+	</add>	
+</mxStylesheet>
