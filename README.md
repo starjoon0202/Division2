@@ -1,5 +1,21 @@
 # Installation
-
+## Goal Model Editor and Code Generator
+- 개발 환경: Win7, CPU i7 4.0, RAM 16GB
+### 사용 방법
+ (1) Unzip Lib.zip to "./lib/"
+ (2) RUN "./src/editor/GoalEditor.java"
+ (3) Drawing Goal Model
+ (4) File -> Save
+ (5) Transform to JAVA (Future: Python, C++, else)
+### 사용 오픈소스 소프트웨어
+ - jGraph: http://jgrapht.org/
+ - RSyntaxTextArea: https://github.com/bobbylight/RSyntaxTextArea
+   <Sister OSSs>
+   - SpellChecker: https://github.com/bobbylight/SpellChecker
+   - RSTAUI: https://github.com/bobbylight/RSTAUI
+   - RSTLanguageSupport: https://github.com/bobbylight/RSTALanguageSupport
+   - AutoComplete: https://github.com/bobbylight/AutoComplete
+ - CodeGen: https://github.com/Pyknic/CodeGen
 
 # 2세부과제 개요
 ## iCPS 소프트웨어 개발 및 운용을 위한 플랫폼 개발
