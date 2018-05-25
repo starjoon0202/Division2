@@ -1,10 +1,36 @@
-# Div. 2
+# Installation
+
+
+# 2세부과제 개요
 ## iCPS 소프트웨어 개발 및 운용을 위한 플랫폼 개발
+Development of Platform for Intelligent CPS Software Development and Operation
+
+### 최종 연구 목표
+- 지능형 CPS 소프트웨어(iCPS SW) 개발 및 운용을 위한 플랫폼 개발 
+    미래형 CPS의 원천기술 확보를 위해 다양한 CPS 환경에서 사용자 혹은 관리자의 의도를 반영할 수 있고, 상황과 환경에 따른 판단을 스스로 내릴 수 있는 지능형 CPS(iCPS) 소프트웨어를 개발 및 운용하는 플랫폼 개발
+
+### 연구 내용
+#### 1차년도 새부 연구 목표
+    - 단일 iCPS SW 설계
+     └ 단일 시스템 목표 모델링
+     └ 단일 시스템 이상 상태 명세
+    
+    - iCPS SW품질관리기법
+     └ 단일목표모델기반 코드 템플릿생성
+     └ 스펙트럼기반 결함위치식별
+    
+    - 단일 iCPS SW 운용 방법론 
+     └ 단일 시스템의 이상 상태 분석
+     └ 단일 시스템의 목표 상태 예측기반 적응 전략 선택
 
 ### 연구 책임자
-성균관대학교 이은석
+- 성균관대학교 이은석(leees@skku.edu)
 
-# Additional Artifacts
+### 실무자
+- 성균관대학교 정호현(jeonghh89@skku.edu)
+- 성균관대학교 김미수(misoo12@skku.edu)
+
+### Additional Artifacts
 * General iCPS Model [SketchBoard](https://sketchboard.me/lAHMcQv7XzOV#/) [GitHub](https://github.com/Horeng/iCPS/blob/master/Artifacts/General%20iCPS%20Model/%5B%EC%B2%A8%EB%B6%8003%5D%20171110_General_iCPS_Model.png)
 * CAN Structure Model [SketchBoard](https://sketchboard.me/lAHMcQv7XzOV#/) [GitHub](https://github.com/Horeng/iCPS/blob/master/Artifacts/CAN_Context%20Aware%20Navigator/%5B%EC%B2%A8%EB%B6%8002%5D%20171110_Structure_Model.png)
 * CAN Sequence Chart [Dir](https://github.com/Horeng/iCPS/tree/master/Artifacts/CAN_Context%20Aware%20Navigator/Sequence%20Chart)
